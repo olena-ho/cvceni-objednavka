@@ -128,3 +128,10 @@ textarea {
   gap: 0.5em 1em;
   padding: 0.5em 0;
 }
+
+.invisibility {
+  display: none;
+}
+.card-alert {
+  color: rgb(182, 40, 40);
+}
