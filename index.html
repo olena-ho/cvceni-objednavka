@@ -8,6 +8,25 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
+    <div class="container">
+      <form class="order-form">
+        <h1>Objednavka</h1>
+        <label
+          >Platebni karta:
+          <input type="text" name="credit-card" id="credit-card"
+        /></label>
 
+        <label>
+          Doprava:
+          <select id="doprava">
+            <option value="pobocka">Vyzvednout na pobocce</option>
+            <option value="zasilkovna">Zasilkovna</option>
+            <option value="posta">Ceska posta</option>
+            <option value="ppl">PPL</option>
+          </select>
+        </label>
+        <button type="submit">Odeslat objednávku</button>
+      </form>
+    </div>
   </body>
 </html>
